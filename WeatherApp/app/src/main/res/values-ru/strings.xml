@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="city_name_text">Город</string>
+    <string name="temperature_parametr">Температура</string>
+</resources>
