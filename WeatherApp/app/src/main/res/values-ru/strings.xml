@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="city_name_text">Город</string>
+    <string name="temperature_parametr">Температура</string>
+    <string name="setting_button">Настройки</string>
+    <string name="back_button">Назад</string>
+    <string name="titleCityopPick">Выбери город</string>
+    <string name="save">Сохранить</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="wind_speed">Скорость ветра</string>
+    <string name="air_pressure">Атмосферное давление</string>
+    <string name="optionally">Дополнительно:</string>
+    <string name="dark_interface">Темная тема</string>
+    <string name="speed">Скорость</string>
+    <string name="pressure">Давление</string>
+</resources>
