@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">WeatherApp</string>
-    <string name="city_name_text">City</string>
-    <string name="temperature_parametr">Temperature</string>
-</resources>
