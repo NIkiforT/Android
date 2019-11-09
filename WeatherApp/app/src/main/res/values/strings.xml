@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="city_name_text">City</string>
+    <string name="temperature_parametr">Temperature</string>
+    <string name="setting_button">Setting</string>
+    <string name="back_button">Back</string>
+    <string name="titleCityopPick">Choose a city</string>
+    <string name="save">Save</string>
+    <string name="enter_text">Moscow</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="air_pressure">Air pressure</string>
+    <string name="optionally">Optionally:</string>
+    <string name="dark_interface">Dark interface</string>
+    <string name="speed">Speed</string>
+    <string name="pressure">Pressure</string>
+</resources>

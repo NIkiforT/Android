@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/setting_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/setting_background" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:text="@string/back_button"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTitleCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="80dp"
+        android:background="#00FFFFFF"
+        android:text="@string/titleCityopPick"
+        android:textColor="@color/gray"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/selectCityText"
+        android:layout_width="260dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#4DFFFFFF"
+        android:shadowColor="#D8FFFFFF"
+        android:text="@string/enter_text"
+        android:textColorLink="#DCB95353"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitleCity" />
+
+    <Switch
+        android:id="@+id/speedWindButton"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/wind_speed"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectCityText" />
+
+    <Switch
+        android:id="@+id/airPressureButton"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/air_pressure"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speedWindButton" />
+
+    <TextView
+        android:id="@+id/textOptionally"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/optionally"
+        android:textColor="@color/gray"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/airPressureButton" />
+
+    <Switch
+        android:id="@+id/blackInterface"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/dark_interface"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/setting_background"
+        app:layout_constraintTop_toBottomOf="@+id/textOptionally" />
+</androidx.constraintlayout.widget.ConstraintLayout>
